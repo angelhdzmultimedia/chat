@@ -1,0 +1,16 @@
+{
+  "extends": "@quasar/app-vite/tsconfig-preset",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "types": [
+      "vite-plugin-vue-layouts/client"
+    ]
+  },
+  "include": [
+    "src/**/*.vue",
+    "src/**/*.ts",
+    "typed-router.d.ts",
+    "vite-plugin-vue-layouts/client",
+    "auto-imports.d.ts"
+  ]
+}
